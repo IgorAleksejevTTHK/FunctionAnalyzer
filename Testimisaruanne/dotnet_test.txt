@@ -1,0 +1,31 @@
+Test run for C:\Users\Dell-PC\Desktop\praktika\FunctionAnalyzer\tests\FunktsioonideUurimine.Tests\bin\Debug\net8.0\FunktsioonideUurimine.Tests.dll (.N
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:00.41]       Expected: "x1 = 0"
+[xUnit.net 00:00:00.41]       Actual:   "x1 = -0.97, x2 = -0.96, x3 = -0.95, x4 = "···
+  Passed Taida_KontrollFunktsioon_TulemusedVastavadTabelile3(valem: "x^3 - 12*x", nullkohad: "x1 = -2√3, x2 = 0, x3 = 2√3", kriitilised: "x1 = -2,
+  Passed Taida_KontrollFunktsioon_TulemusedVastavadTabelile3(valem: "x^2 - 4*x + 3", nullkohad: "x1 = 1, x2 = 3", kriitilised: "x1 = 2", ekstreemumid:
+  Passed Taida_KontrollFunktsioon_TulemusedVastavadTabelile3(valem: "x^3 - 3*x", nullkohad: "x1 = -√3, x2 = 0, x3 = √3", kriitilised: "x1 = -1, x2
+  Failed Taida_SuurAste_AinusNullkohtOnNull [12 ms]
+Expected: "x1 = 0"
+Actual:   "x1 = -0.97, x2 = -0.96, x3 = -0.95, x4 = "···
+  Passed ArvutaPunktid_KontrollFunktsioon_TuletisVastabKasitsiArvutatule(valem: "x^2 - 4*x + 3", x: 2, oodatav: 0) [4 ms]
+  Passed ArvutaPunktid_KontrollFunktsioon_TuletisVastabKasitsiArvutatule(valem: "x^2 - 4*x + 3", x: 0, oodatav: -4) [< 1 ms]
+  Passed ArvutaPunktid_KontrollFunktsioon_TuletisVastabKasitsiArvutatule(valem: "x^3 - 12*x", x: 2, oodatav: 0) [< 1 ms]
+  Passed ArvutaPunktid_KontrollFunktsioon_TuletisVastabKasitsiArvutatule(valem: "x^3 - 12*x", x: 0, oodatav: -12) [< 1 ms]
+  Passed ArvutaPunktid_KontrollFunktsioon_TuletisVastabKasitsiArvutatule(valem: "x^3 - 3*x", x: -1, oodatav: 0) [< 1 ms]
+[xUnit.net 00:00:00.44]       Expected: "X = R \\ {0}"
+[xUnit.net 00:00:00.44]       Actual:   "X = (-∞; ∞)"
+[xUnit.net 00:00:00.45]       Expected: "X = R \\ {100}"
+[xUnit.net 00:00:00.45]       Actual:   "X = (-∞; ∞)"
+  Passed ArvutaPunktid_KontrollFunktsioon_TuletisVastabKasitsiArvutatule(valem: "x^3 - 3*x", x: 2, oodatav: 9) [< 1 ms]
+  Passed OnKorrektne_ViganeValem_TagastabFalseJaVeateate(valem: "x^^2") [8 ms]
+  Passed OnKorrektne_ViganeValem_TagastabFalseJaVeateate(valem: "sin(x") [< 1 ms]
+  Passed OnKorrektne_ViganeValem_TagastabFalseJaVeateate(valem: "3*") [< 1 ms]
+  Passed OnKorrektne_ViganeValem_TagastabFalseJaVeateate(valem: "y + 1") [9 ms]
+  Passed Vaartus_UksJagatudXigaPunktisNull_EiOleMaaratud [< 1 ms]
+  Failed Taida_XJagatudX_MaaramispiirkondEiSisaldaNulli [4 ms]
+Expected: "X = R \\ {0}"
+Actual:   "X = (-∞; ∞)"
+  Failed Taida_PoolusVahemikustValjas_MaaramispiirkondEiSisalda100 [12 ms]
+Expected: "X = R \\ {100}"
+Actual:   "X = (-∞; ∞)"

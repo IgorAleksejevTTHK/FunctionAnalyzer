@@ -1,0 +1,499 @@
+{
+ "brauser": "158.0.4370.33",
+ "tyhi": "Salvestatud funktsioonid\n+ Uus funktsioon\nf(x)\n\nSalvestatud funktsioone pole veel.\n\nAva kalkulaator, arvuta funktsioon ja vajuta „Salvesta minu funktsioonidesse“.\n\nAva kalkulaator",
+ "loomine": {
+  "url": "http://localhost:5080/Funktsioonid/Details/42",
+  "teade": [
+   "Funktsioon lahendati ja salvestati."
+  ],
+  "title": "x^3-3*x – Funktsioonide uurimine"
+ },
+ "tagasi": {
+  "url": "http://localhost:5080/?valem=x%5E3-3*x",
+  "kirjeid_enne": 1,
+  "kirjeid_parast": 1
+ },
+ "detail": {
+  "title": "x^3-3*x – Funktsioonide uurimine",
+  "datasets": [
+   {
+    "label": "f(x) = x³−3·x",
+    "dash": null,
+    "color": "#e11d48",
+    "hidden": false
+   },
+   {
+    "label": "f'(x) = 3·x² − 3",
+    "dash": [
+     6,
+     6
+    ],
+    "color": "#7c3aed",
+    "hidden": false
+   }
+  ],
+  "xTitle": "x",
+  "yTitle": "y",
+  "legend": true,
+  "lahendusNahtav": false,
+  "lahendusNupp": false,
+  "lahendusParastYo": true,
+  "valeVahemik": "x min peab olema väiksem kui x max ja samm suurem kui 0."
+ },
+ "graafik 1/x": {
+  "nulle": 1,
+  "punkte": 101,
+  "ymin": -2.7108307692307694,
+  "ymax": 2.7108307692307694,
+  "esimeneX": -5,
+  "spanGaps": false
+ },
+ "graafik tan(x)": {
+  "nulle": 0,
+  "punkte": 101,
+  "ymin": -6.439507609081504,
+  "ymax": 6.439507609081504,
+  "esimeneX": -5,
+  "spanGaps": false
+ },
+ "graafik sqrt(x)": {
+  "nulle": 50,
+  "punkte": 101,
+  "ymin": -0.49014610066795394,
+  "ymax": 2.7262140781677435,
+  "esimeneX": 0,
+  "spanGaps": false
+ },
+ "graafik ln(x)": {
+  "nulle": 51,
+  "punkte": 101,
+  "ymin": -1.9945524631487452,
+  "ymax": 2.2573994366530634,
+  "esimeneX": 0.1,
+  "spanGaps": false
+ },
+ "graafik x^5": {
+  "nulle": 0,
+  "punkte": 101,
+  "ymin": -561.875,
+  "ymax": 561.875,
+  "esimeneX": -5,
+  "spanGaps": false
+ },
+ "graafikUueneb": {
+  "enne": 15010,
+  "parast": 50078,
+  "muutus": true,
+  "valem": "f(x) = \n𝑥\n4\n−\n2\n𝑥\n2\nx\n4\n−2x\n2\n\nFunktsiooni täielik uurimine ühes tabelis. Klõpsa real, et näha, kuidas vastus leiti.\n\nX\n"
+ },
+ "kalkViga": {
+  "nahtav": true,
+  "tekst": "Valemit ei õnnestunud lugeda. Kontrolli sulge ja märke."
+ },
+ "vorm": {
+  "silt": "Valem f(x)",
+  "tarn": false,
+  "required": true,
+  "vihje": "Serverisse läheb: —",
+  "placeholder": null,
+  "tyhiTeade": "Sisesta valem."
+ },
+ "topeltklops": {
+  "enne": 10,
+  "parast": 11,
+  "url": "http://localhost:5080/Funktsioonid/Details/52"
+ },
+ "enter": {
+  "url": "http://localhost:5080/Funktsioonid/Details/53"
+ },
+ "muutmine": {
+  "url": "http://localhost:5080/Funktsioonid/Details/51",
+  "teade": [
+   "Muudatused salvestati."
+  ]
+ },
+ "kustuta": {
+  "url": "http://localhost:5080/Funktsioonid/Delete/51",
+  "tekst": "Kustuta funktsioon?\n\nKas kustutada x^2-9 ja selle analüüs? Seda ei saa tagasi võtta.\n\nKustuta Tühista",
+  "teade": [
+   "Funktsioon kustutati."
+  ],
+  "parastStatus": "Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://localhost:5080/Funktsioonid/Details/51"
+ },
+ "404_goto": "Page.goto: net::ERR_HTTP_RESPONSE_CODE_FAILURE at http://localhost:5080/Funktsioonid/Details/9999",
+ "404": "This localhost page can’t be found\n\nNo webpage was found for the web address: http://localhost:5080/Funktsioonid/Details/9999\n\nHTTP ERROR 404\nRefresh\nMicrosoft Edge",
+ "lehed": {
+  "kalkulaator": {
+   "title": "Kalkulaator – Funktsioonide uurimine",
+   "h1": null,
+   "menuu": [
+    "Kalkulaator",
+    "Juhend",
+    "Salvestatud",
+    "ET",
+    "RU"
+   ],
+   "linkNimekirja": false,
+   "kyrillitsa": [],
+   "fookusVaartus": null
+  },
+  "juhend": {
+   "title": "Juhend – Funktsioonide uurimine",
+   "h1": "Juhend: kuidas funktsiooni uurida",
+   "menuu": [
+    "Kalkulaator",
+    "Juhend",
+    "Salvestatud",
+    "ET",
+    "RU"
+   ],
+   "linkNimekirja": false,
+   "kyrillitsa": [],
+   "fookusVaartus": null
+  },
+  "nimekiri": {
+   "title": "Salvestatud – Funktsioonide uurimine",
+   "h1": "Salvestatud funktsioonid",
+   "menuu": [
+    "Kalkulaator",
+    "Juhend",
+    "Salvestatud",
+    "ET",
+    "RU"
+   ],
+   "linkNimekirja": false,
+   "kyrillitsa": [],
+   "fookusVaartus": null
+  },
+  "vorm": {
+   "title": "Uus funktsioon – Funktsioonide uurimine",
+   "h1": "Uus funktsioon",
+   "menuu": [
+    "Kalkulaator",
+    "Juhend",
+    "Salvestatud",
+    "ET",
+    "RU"
+   ],
+   "linkNimekirja": true,
+   "kyrillitsa": [
+    "Ё"
+   ],
+   "fookusVaartus": null
+  },
+  "detail": {
+   "title": "x^3-3*x – Funktsioonide uurimine",
+   "h1": "f(x) = x3−3x{ x}^{3}-3 xx3−3x",
+   "menuu": [
+    "Kalkulaator",
+    "Juhend",
+    "Salvestatud",
+    "ET",
+    "RU"
+   ],
+   "linkNimekirja": true,
+   "kyrillitsa": [],
+   "fookusVaartus": null
+  },
+  "muuda": {
+   "title": "Muuda funktsiooni – Funktsioonide uurimine",
+   "h1": "Muuda funktsiooni",
+   "menuu": [
+    "Kalkulaator",
+    "Juhend",
+    "Salvestatud",
+    "ET",
+    "RU"
+   ],
+   "linkNimekirja": false,
+   "kyrillitsa": [
+    "Ё"
+   ],
+   "fookusVaartus": null
+  },
+  "kustuta": {
+   "title": "Kustuta – Funktsioonide uurimine",
+   "h1": "Kustuta funktsioon?",
+   "menuu": [
+    "Kalkulaator",
+    "Juhend",
+    "Salvestatud",
+    "ET",
+    "RU"
+   ],
+   "linkNimekirja": true,
+   "kyrillitsa": [],
+   "fookusVaartus": null
+  }
+ },
+ "tab": [
+  {
+   "tag": "A",
+   "text": "f(x)Funktsioonide uurija",
+   "outline": "auto 1px",
+   "shadow": false
+  },
+  {
+   "tag": "A",
+   "text": "Kalkulaator",
+   "outline": "auto 1px",
+   "shadow": false
+  },
+  {
+   "tag": "A",
+   "text": "Juhend",
+   "outline": "auto 1px",
+   "shadow": false
+  },
+  {
+   "tag": "A",
+   "text": "Salvestatud",
+   "outline": "auto 1px",
+   "shadow": false
+  },
+  {
+   "tag": "A",
+   "text": "ET",
+   "outline": "auto 1px",
+   "shadow": false
+  },
+  {
+   "tag": "A",
+   "text": "RU",
+   "outline": "auto 1px",
+   "shadow": false
+  },
+  {
+   "tag": "INPUT",
+   "text": "1",
+   "outline": "none 0px",
+   "shadow": true
+  },
+  {
+   "tag": "BUTTON",
+   "text": "Leia",
+   "outline": "none 0px",
+   "shadow": true
+  },
+  {
+   "tag": "A",
+   "text": "Muuda",
+   "outline": "none 0px",
+   "shadow": true
+  },
+  {
+   "tag": "A",
+   "text": "Kustuta",
+   "outline": "none 0px",
+   "shadow": true
+  },
+  {
+   "tag": "A",
+   "text": "Kõik funktsioonid",
+   "outline": "none 0px",
+   "shadow": true
+  },
+  {
+   "tag": "INPUT",
+   "text": "-5",
+   "outline": "none 0px",
+   "shadow": true
+  }
+ ],
+ "kontrast": {
+  "tekst (th)": {
+   "varv": "rgb(69, 80, 106)",
+   "taust": "rgb(255, 255, 255)",
+   "suhe": 8.05
+  },
+  "tekst (td)": {
+   "varv": "rgb(0, 0, 0)",
+   "taust": "rgb(255, 255, 255)",
+   "suhe": 21
+  },
+  "menüü": {
+   "varv": "rgb(255, 228, 234)",
+   "taust": "rgb(253, 245, 247)",
+   "suhe": 1.12
+  },
+  "nupp": {
+   "varv": "rgb(255, 255, 255)",
+   "taust": "rgb(225, 29, 72)",
+   "suhe": 4.7
+  },
+  "link": {
+   "varv": "rgb(225, 29, 72)",
+   "taust": "rgb(253, 245, 247)",
+   "suhe": 4.38
+  },
+  "väike silt": {
+   "varv": "rgb(27, 36, 51)",
+   "taust": "rgb(255, 255, 255)",
+   "suhe": 15.59
+  }
+ },
+ "laiused": {
+  "arvuti": {
+   "kalkulaator": {
+    "sw": 1920,
+    "cw": 1920,
+    "ules": []
+   },
+   "nimekiri": {
+    "sw": 1920,
+    "cw": 1920,
+    "ules": [
+     "path. 10853",
+     "path. 5893"
+    ]
+   },
+   "detail": {
+    "sw": 1920,
+    "cw": 1920,
+    "ules": []
+   },
+   "vorm": {
+    "sw": 1920,
+    "cw": 1920,
+    "ules": []
+   },
+   "juhend": {
+    "sw": 1920,
+    "cw": 1920,
+    "ules": [
+     "path. 9293",
+     "path. 8966",
+     "path. 9057",
+     "path. 9270"
+    ]
+   }
+  },
+  "tahvel": {
+   "kalkulaator": {
+    "sw": 768,
+    "cw": 768,
+    "ules": []
+   },
+   "nimekiri": {
+    "sw": 768,
+    "cw": 768,
+    "ules": [
+     "path. 10139",
+     "path. 5179"
+    ]
+   },
+   "detail": {
+    "sw": 768,
+    "cw": 768,
+    "ules": []
+   },
+   "vorm": {
+    "sw": 768,
+    "cw": 768,
+    "ules": []
+   },
+   "juhend": {
+    "sw": 768,
+    "cw": 768,
+    "ules": [
+     "path. 8743",
+     "path. 8416",
+     "path. 8507",
+     "path. 8720"
+    ]
+   }
+  },
+  "telefon": {
+   "kalkulaator": {
+    "sw": 375,
+    "cw": 375,
+    "ules": []
+   },
+   "nimekiri": {
+    "sw": 375,
+    "cw": 375,
+    "ules": [
+     "path. 10115",
+     "path. 5032"
+    ]
+   },
+   "detail": {
+    "sw": 375,
+    "cw": 375,
+    "ules": []
+   },
+   "vorm": {
+    "sw": 375,
+    "cw": 375,
+    "ules": []
+   },
+   "juhend": {
+    "sw": 587,
+    "cw": 375,
+    "ules": [
+     "ASIDE.kaart sisukord 587",
+     "INPUT. 566",
+     "NAV. 566",
+     "A. 566"
+    ]
+   }
+  }
+ },
+ "puuteala": [
+  {
+   "t": "Kalkulaator",
+   "w": 75,
+   "h": 29
+  },
+  {
+   "t": "Juhend",
+   "w": 53,
+   "h": 29
+  },
+  {
+   "t": "Salvestatud",
+   "w": 78,
+   "h": 29
+  },
+  {
+   "t": "RU",
+   "w": 33,
+   "h": 27
+  }
+ ],
+ "suum200": {
+  "nimekiri": {
+   "sw": 960,
+   "cw": 960
+  },
+  "detail": {
+   "sw": 960,
+   "cw": 960
+  }
+ },
+ "offline": {
+  "vead": [
+   "Chart is not defined"
+  ],
+  "graafikuViga": "",
+  "kalkulaator": "1\nSisesta funktsioon\nf(x) =\nArvuta\nNäited:\nx³ − 3x\nx² − 4x + 3\nx⁴ − 2x²\n(x² + 1) / x\nx · eˣ\nln x / x\n√(4 − x²)\na·x² + b·x + c\nHiljutised:\ntühjenda\n123\nPõhiline\nf(x)\nFunktsioonid\nabc\nParameetrid\n□+□\nMa"
+ },
+ "konsool": [
+  "error: Failed to load resource: the server responded with a status of 404 (Not Found)",
+  "error: Failed to load resource: the server responded with a status of 404 ()",
+  "error: Failed to load resource: the server responded with a status of 404 ()"
+ ],
+ "idd": {
+  "detail": 42,
+  "x^3 - 3*x": 42,
+  "x^2 - 4*x + 3": 43,
+  "x^3 - 12*x": 44,
+  "x^4 - 2*x^2": 45,
+  "1/x": 46,
+  "tan(x)": 47,
+  "sqrt(x)": 48,
+  "ln(x)": 49,
+  "x^5": 50,
+  "x^2/x": 51
+ }
+}

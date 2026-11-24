@@ -1,0 +1,10 @@
+<Project>
+  <!--
+    Veebiprojekt asub repositooriumi juurkaustas, seega korjaks see vaikimisi
+    kokku ka testiprojekti failid (tests/**). Välistame need, et veebiprojekt
+    ei püüaks testifaile kompileerida. Testiprojekti seda ei mõjuta.
+  -->
+  <PropertyGroup>
+    <DefaultItemExcludes>$(DefaultItemExcludes);tests/**;Testimisaruanne/**</DefaultItemExcludes>
+  </PropertyGroup>
+</Project>
